@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkyGames</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style1.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/Logo Worky.png" alt="" width="70" height="70"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Creators.html">Criadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="developers.html">Desenvolvedoras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lojas.html">Lojas</a>
+                    </li>
+                </ul>
+
+                <span id="log"> <a href="login.html">Log in</span> </a>
+                <span id="log"> | </span>
+                <span id="log"> <a href="#">Criar conta </span> </a>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container lancamentos pt-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid nopadding">
+                <a class="navbar-brand" id="lancamentos">
+                    <h2>Jogos em Destaque</h2>
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: px;">
+                        <li class="nav-item dropdown border border-dark rounded ">
+                            <a id="botaotopo" class="nav-link dropdown-toggle me-5" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ordem: Popularidade
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Melhores da Semana</a></li>
+                                <li><a class="dropdown-item" href="#">Melhores do Mês</a></li>
+                                <li><a class="dropdown-item" href="#">Melhores do Ano</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Jogar dados</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown border border-dark rounded ms-4">
+                            <a class="nav-link dropdown-toggle me-5" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Genero: TODOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Ação</a></li>
+                                <li><a class="dropdown-item" href="#">Terror</a></li>
+                                <li><a class="dropdown-item" href="#">Estratégia</a></li>
+                                <li><a class="dropdown-item" href="#">FPS</a></li>
+                                <li><a class="dropdown-item" href="#">RPG</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">Jogar dados</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="destaque">
+
+
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/RDfvT_j_s_k"
+                title="Rainbow Six Siege: Operation Solar Raid CGI Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <span class="titulo">Tom Clancy's Rainbow Six Siege | Última temporada do ano 7</span>
+            <div id="separar">.</div>
+            <span class="destaquedescription">Operação Solar Raid Operador e Guia de Gadget. Solis, um novo Operador, e
+                Nighthaven Labs, um novo mapa, encabeçam uma temporada com crossplay e cross-progression, Ranqueado 2.0,
+                nova estrutura do Passe de Batalha e muito mais.</span>
+
+            <p class="detalhesdestaques"><a
+                    href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/game-info/seasons/solarraid"> Mais
+                    detalhes
+                </a></p>
+
+        </div>
+
+
+        <div class="row small-video" id="cards">
+        </div>
+        <div class="float-end py-4">
+            <div class="input-group d-flex">
+                <div class="input-group">
+                    <span class="input-group-text bg-secondary border-0" id="basic-addon1"><i
+                            class="bi bi-plus"></i></span>
+                    <button type="button" class="btn btn-secondary" id="btn-0">Carregar mais lançamentos</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec-plataformas" class="container plataformas pt-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid nopadding">
+                <a class="navbar-brand" id="plataformas">
+                    <h2>Plataformas</h2>
+                </a>
+            </div>
+        </nav>
+        <div class="row small-video" id="plata">
+        </div>
+        <div class="float-end py-4">
+            <div class="input-group d-flex">
+                <div class="input-group">
+                    <span class="input-group-text bg-secondary border-0" id="basic-addon1"><i
+                            class="bi bi-plus"></i></span>
+                    <button type="button" class="btn btn-secondary" id="btn-1">Carregar mais plataformas</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+
+
+    <footer class="footer">
+        <div class="container bottom_border">
+            <div class="row">
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quem somos?</h5>
+                    <!--headin5_amrc-->
+                    <p class="mb10">Matheus Filipe Alves, do curso de SI. Site desenvolvido para trabalho referente à
+                        disciplina de Desenvolvimento Web.</p>
+                    <p><i class="fa fa-phone"></i> (31)99192-6063 </p>
+                    <p><i class="fa fa fa-envelope"></i> teusalves@live.com </p>
+                    <p><i class="fa fa fa-envelope"></i> matheus.alves.1435651@sga.pucminas.br </p>
+
+                </div>
+
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Referências</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://replit.com/@Workbobz">Repl.it</a></li>
+                        <li><a href="https://github.com/Workbob">GitHub</a></li>
+                        <li><a href="https://www.canva.com">Logo Design</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Redes Sociais</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://www.instagram.com/workboby/">Instagram</a></li>
+                        <li><a href="https://twitter.com/WorkTheus">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100002498575970">Facebook</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Segue Lá</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="https://www.twitch.tv/workbob">TwitchTV</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCQ8QRy_JrRvj5j8MCuHQkpA">Youtube</a></li>
+                        <li><a href="https://discord.com/channels/338881840813441034/338881840813441034">Discord</a>
+                        </li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+                <!--footer_ul2_amrc ends here-->
+            </div>
+        </div>
+        </div>
+
+
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center">Copyrigth 2022 - Disciplina de Desenvolvimento de Interfaces Web | Designed by <a
+                href="#">Matheus Filipe Alves</a></p>
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

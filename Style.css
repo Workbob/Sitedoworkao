@@ -1,0 +1,461 @@
+/* Comportamento normal Desktop */
+
+body {
+
+    background-color: black;
+
+}
+
+h1{
+
+    color: white;
+    opacity: calc(80%);
+    text-align: center;
+    padding-top: 20px;
+}
+
+section {
+
+    color: white;
+    width: 80%;
+    margin-left: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#devs {
+
+opacity: calc(50%);
+
+}
+#games {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 40%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+p {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.botaocarregar {
+
+    width: 200px;
+    margin: auto;
+    opacity: calc(50%);
+    text-decoration: none;
+}
+
+div.homegames {
+
+    display: inline-block;
+    width: 300px;
+    background-color: #242526;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+span.titulogames {
+
+    padding-left: 10px;
+}
+
+div.caixinhacarregar {
+
+    margin: auto;
+    padding-top: 50px;
+}
+
+span {
+
+    color: white;
+}
+
+#log {
+
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 5px
+
+
+}
+
+#separar {
+
+    color: black;
+}
+
+span.sinopse {
+
+    color: lightgrey;
+}
+
+#conjuntosinopse {
+
+    width: 240px;
+    text-align: justify;
+    padding-left: 10px;
+
+}
+
+span.login2 {
+
+    text-align: center;
+}
+
+/*footer*/
+
+div.paragrafo {
+
+    float: right;
+}
+
+.rodape {
+
+    background-color: #242526;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+h1.rodape1 {
+
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+
+}
+
+.editorial {
+
+
+    color: white;
+    display: inline-block;
+}
+
+/*fim footer*/
+
+iframe {
+
+    width: 95%;
+    height: 500px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: block;
+}
+
+#destaque {
+
+    background-color: #242526;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 64%;
+    margin-left: 19%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px
+}
+
+
+
+#devs {
+
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.devgames {
+
+    display: inline-block;
+    width: 300px;
+    background-color: #242526;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+
+}
+
+#principaisgamesdevs {
+
+    font-size: small;
+    width: 240px;
+    display: inline-block
+}
+
+#jagger {
+
+    display: flex;
+    float: right;
+    width: 200px;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+
+
+.destaquedescription {
+
+    font-size: small;
+}
+
+
+
+/*CreatorsPage*/
+
+
+
+
+#conjuntosinopsecreators1 {
+
+
+    font-size: 14px;
+    width: 350px;
+    position: static;
+    font-weight: bold;
+    padding-left: 10px;
+    top: 720px;
+}
+
+
+div.creators {
+
+    display: inline-block;
+    width: 400px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px
+}
+
+#creatorscard {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    border-radius: 5px;
+    opacity: calc(50%);
+
+
+}
+
+span.sinopsecreators {
+
+    color: white
+}
+
+p.detalhescreators {
+
+    background-color: #242627;
+    width: 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#creatorsimage {
+
+    display: flex;
+    float: right;
+    width: 200px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+
+#jagger2 {
+
+    display: flex;
+    float: left;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+
+/* Breakpoint: 1366x768 */
+@media screen and (min-width:768px) and (max-width:1366px) {
+
+
+    div.creators {
+
+        display: inline-block;
+        width: 300px;
+        background-color: #242526;
+        margin: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+
+    }
+
+
+
+    #creatorscard {
+
+        position:sticky;
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 40%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+
+
+    }
+
+
+
+    #jagger2 {
+
+        display: flex;
+        flex-wrap: wrap;
+        float: right;
+        width: 200px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+
+    #jagger {
+
+        display: flex;
+        float: right;
+        width: 200px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+
+
+    #conjuntosinopsecreators1 {
+
+
+
+        width: 240px;
+        text-align: justify;
+        padding-left: 10px;
+        position:static;
+
+    }
+}
+
+
+
+
+
+/* Breakpoint: 1600x900*/
+@media screen and (min-width:900px) and (max-width:1600px) {
+
+    
+    div.creators {
+
+        display: inline-block;
+        width: 300px;
+        background-color: #242526;
+        margin: 20px;
+        padding-bottom: 20px;
+        border-radius: 5px;
+
+    }
+
+
+
+    #creatorscard {
+
+        position:sticky;
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 40%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+
+
+    }
+
+
+
+    #jagger2 {
+
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        width: 200px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+
+    #jagger {
+
+        display: flex;
+        float: right;
+        width: 200px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+
+
+    #conjuntosinopsecreators1 {
+
+
+
+        width: 240px;
+        text-align: justify;
+        padding-left: 10px;
+        position:static;
+
+    }
+
+
+}
+
+
+
+/* Breakpoint: 1200 */
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+
+    input {
+
+        padding-top: 8px;
+        width: 650px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 0px;
+        display: inline-block;
+        opacity: calc(60%);
+    
+    }
+
+    
+
+}
